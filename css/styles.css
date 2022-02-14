@@ -191,6 +191,7 @@ p {
   min-width: 136px;
   box-shadow: 0px 4px 4px var(--button-hero-shadow);
   border-radius: 4px;
+  cursor: pointer;
 }
 .overlay {
   max-width: 1600px;
@@ -215,28 +216,7 @@ p {
 .benefits-list .item:not(:last-child) {
   margin-right: 30px;
 }
-/* .benefits-list .item::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--team-background-color);
-  margin-bottom: 30px;
-}
-.benefits-list .item:nth-child(1)::before {
-  background-image: url('../images/antenna.svg');
-}
-.benefits-list .item:nth-child(2)::before {
-  background-image: url('../images/clock.svg');
-}
-.benefits-list .item:nth-child(3)::before {
-  background-image: url('../images/vector.svg');
-}
-.benefits-list .item:nth-child(4)::before {
-  background-image: url('../images/astronaut.svg');
-} */
+
 .icon-antenna {
   margin-bottom: 30px;
 }
@@ -324,10 +304,11 @@ p {
   padding: 0%;
   width: 44px;
   height: 44px;
-  display: inline-block;
+  display: block;
   border-radius: 50%;
   border: none;
-  text-align: center;
+  align-items: center;
+  cursor: pointer;
 }
 .button-icon:hover,
 .button-icon:focus {
@@ -359,6 +340,7 @@ p {
   background-color: var(--main-white-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 .icon-clients:hover {
   fill: var(--main-blue-color);
@@ -421,12 +403,15 @@ p {
 }
 .button-icon-footer {
   background-color: rgba(255, 255, 255, 0.1);
+  padding: 0;
   width: 44px;
   height: 44px;
-  display: inline-block;
+  display: block;
   border-radius: 50%;
   border: none;
-  text-align: center;
+  display: block;
+  align-items: center;
+  cursor: pointer;
 }
 .icon-footer {
   fill: var(--main-white-color);
@@ -460,6 +445,7 @@ p {
   border-color: transparent;
   border-radius: 4px;
   padding: 6px 22px;
+  cursor: pointer;
 }
 .buttons-port .button-portfolio:hover,
 .buttons-port .button-portfolio:focus {
