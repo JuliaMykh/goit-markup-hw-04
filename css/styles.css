@@ -17,6 +17,7 @@
     0px 2px 2px rgba(0, 0, 0, 0.12);
   --portfolio-cards-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  --icon-color: #afb1b8;
 }
 body {
   background-color: var(--main-white-color);
@@ -133,7 +134,7 @@ p {
 
 .icon-envelope {
   margin-right: 10px;
-  fill: #757575;
+  fill: var(--text-color);
 }
 .icon-envelope:hover,
 .icon-envelope:focus {
@@ -141,7 +142,7 @@ p {
 }
 .icon-smartphone {
   margin-right: 10px;
-  fill: #757575;
+  fill: var(--text-color);
 }
 .icon-smartphone:hover,
 .icon-smartphone:focus {
@@ -316,7 +317,7 @@ p {
   margin-right: 10px;
 }
 .icon {
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 .button-icon {
   background-color: var(--team-background-color);
@@ -349,21 +350,21 @@ p {
   margin-right: 30px;
 }
 .icon-clients {
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 .button-clients {
   padding: 0;
   width: 170px;
   height: 92px;
   background-color: var(--main-white-color);
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--icon-color);
   border-radius: 4px;
 }
 .icon-clients:hover {
-  fill: #2196f3;
+  fill: var(--main-blue-color);
 }
 .button-clients:hover {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--main-blue-color);
 }
 /* Футер */
 .main-footer {
