@@ -98,6 +98,7 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .contacts .item:first-child {
   margin-right: 30px;
 }
@@ -161,7 +162,9 @@ p {
 .link.current {
   color: var(--main-blue-color);
 }
-
+.smartphone {
+  margin: auto auto;
+}
 /* Герой */
 .hero {
   padding-top: 200px;
@@ -298,27 +301,28 @@ p {
 }
 .icon {
   fill: var(--icon-color);
+  margin: auto auto;
 }
-.button-icon {
-  background-color: var(--team-background-color);
-  padding: 0%;
-  width: 44px;
-  height: 44px;
-  display: block;
-  border-radius: 50%;
-  border: none;
-  align-items: center;
-  cursor: pointer;
-}
-.button-icon:hover,
-.button-icon:focus {
-  background-color: var(--main-blue-color);
-}
+
 .icon:hover,
 .icon:focus {
   fill: var(--main-white-color);
 }
-
+.name-social-link .link {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: block;
+  display: flex;
+}
+.name-social-link .link:hover,
+.name-social-link .link:focus {
+  background-color: var(--main-blue-color);
+}
 /* Постоянные клиенты */
 .clients {
   background-color: var(--main-white-color);
@@ -401,23 +405,25 @@ p {
 .social-network-list .item:not(:last-child) {
   margin-right: 10px;
 }
-.button-icon-footer {
+
+.icon-footer {
+  fill: var(--main-white-color);
+  margin: auto auto;
+}
+
+.social-network-list .link {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 0;
   width: 44px;
   height: 44px;
-  display: block;
   border-radius: 50%;
   border: none;
-  display: block;
-  align-items: center;
   cursor: pointer;
+  display: block;
+  display: flex;
 }
-.icon-footer {
-  fill: var(--main-white-color);
-}
-.button-icon-footer:hover,
-.button-icon-footer:focus {
+.social-network-list .link:hover,
+.social-network-list .link:hover {
   background-color: var(--main-blue-color);
 }
 /* Страница Портфолио */
