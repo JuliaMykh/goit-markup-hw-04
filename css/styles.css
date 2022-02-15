@@ -103,15 +103,10 @@ p {
   margin-right: 30px;
 }
 
-.contacts .smartphone {
-  display: flex;
-}
-
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-.main-part {
+.main-nav,
+.main-part,
+.contacts .smartphone,
+.contacts .envelope {
   display: flex;
   align-items: center;
 }
