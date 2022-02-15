@@ -103,6 +103,10 @@ p {
   margin-right: 30px;
 }
 
+.contacts .smartphone {
+  display: flex;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -162,9 +166,7 @@ p {
 .link.current {
   color: var(--main-blue-color);
 }
-.smartphone {
-  margin: auto auto;
-}
+
 /* Герой */
 .hero {
   padding-top: 200px;
@@ -220,18 +222,13 @@ p {
   margin-right: 30px;
 }
 
-.icon-antenna {
-  margin-bottom: 30px;
-}
-.icon-clock {
-  margin-bottom: 30px;
-}
-.icon-vector {
-  margin-bottom: 30px;
-}
+.icon-antenna,
+.icon-clock,
+.icon-vector,
 .icon-astronaut {
   margin-bottom: 30px;
 }
+
 .benefits {
   font-size: 14px;
   line-height: 1.14;
