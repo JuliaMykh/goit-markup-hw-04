@@ -134,7 +134,7 @@ p {
 
 .icon-envelope {
   margin-right: 10px;
-  fill: var(--text-color);
+  fill: currentColor;
 }
 .icon-envelope:hover,
 .icon-envelope:focus {
@@ -142,7 +142,7 @@ p {
 }
 .icon-smartphone {
   margin-right: 10px;
-  fill: var(--text-color);
+  fill: currentColor;
 }
 .icon-smartphone:hover,
 .icon-smartphone:focus {
@@ -217,13 +217,6 @@ p {
   margin-right: 30px;
 }
 
-.icon-antenna,
-.icon-clock,
-.icon-vector,
-.icon-astronaut {
-  margin-bottom: 30px;
-}
-
 .benefits {
   font-size: 14px;
   line-height: 1.14;
@@ -235,6 +228,19 @@ p {
 .benefits-text {
   font-size: 14px;
   line-height: 1.7;
+}
+.benefits-list-icon {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+}
+.icon-antenna {
+  width: 65px;
+  height: 70px;
+  background-position: center;
 }
 /* Чем мы занимаемcя */
 .section-title.job {
@@ -254,6 +260,7 @@ p {
   margin-bottom: 50px;
 }
 .team-container {
+  background-color: var(--main-white-color);
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -292,7 +299,7 @@ p {
   margin-right: 10px;
 }
 .icon {
-  fill: var(--icon-color);
+  fill: currentColor;
   margin: auto auto;
 }
 
@@ -301,6 +308,7 @@ p {
   fill: var(--main-white-color);
 }
 .name-social-link .link {
+  color: var(--icon-color);
   background-color: rgba(255, 255, 255, 0.1);
   padding: 0;
   width: 44px;
@@ -313,6 +321,7 @@ p {
 }
 .name-social-link .link:hover,
 .name-social-link .link:focus {
+  fill: var(--main-white-color);
   background-color: var(--main-blue-color);
 }
 /* Постоянные клиенты */
@@ -326,22 +335,26 @@ p {
 .list-clients .item:not(:last-child) {
   margin-right: 30px;
 }
-.icon-clients {
-  fill: var(--icon-color);
-}
+
 .button-clients {
-  padding: 0;
+  display: block;
   width: 170px;
   height: 92px;
+  color: var(--icon-color);
   background-color: var(--main-white-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   cursor: pointer;
 }
-.icon-clients:hover {
+.icon-clients {
+  fill: currentColor;
+}
+.icon-clients:hover,
+.icon-clients:focus {
   fill: var(--main-blue-color);
 }
-.button-clients:hover {
+.button-clients:hover,
+.button-clients:focus {
   border: 1px solid var(--main-blue-color);
 }
 /* Футер */
@@ -415,7 +428,7 @@ p {
   display: flex;
 }
 .social-network-list .link:hover,
-.social-network-list .link:hover {
+.social-network-list .link:focus {
   background-color: var(--main-blue-color);
 }
 /* Страница Портфолио */
