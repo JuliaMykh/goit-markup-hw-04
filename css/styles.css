@@ -236,12 +236,9 @@ p {
   border-radius: 4px;
   margin-bottom: 30px;
   display: flex;
+  justify-content: center;
 }
-.icon-antenna {
-  width: 65px;
-  height: 70px;
-  background-position: center;
-}
+
 /* Чем мы занимаемcя */
 .section-title.job {
   margin-bottom: 50px;
