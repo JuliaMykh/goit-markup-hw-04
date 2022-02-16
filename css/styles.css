@@ -144,10 +144,7 @@ p {
   margin-right: 10px;
   fill: currentColor;
 }
-.icon-smartphone:hover,
-.icon-smartphone:focus {
-  fill: var(--main-blue-color);
-}
+
 .contacts .link:hover,
 .contacts .link:focus,
 .site-nav .link:hover,
@@ -295,18 +292,9 @@ p {
 .name-social-link .item-link:not(:last-child) {
   margin-right: 10px;
 }
-.icon {
-  fill: currentColor;
-  margin: auto auto;
-}
 
-.icon:hover,
-.icon:focus {
-  fill: var(--main-white-color);
-}
 .name-social-link .link {
   color: var(--icon-color);
-  background-color: rgba(255, 255, 255, 0.1);
   padding: 0;
   width: 44px;
   height: 44px;
@@ -316,10 +304,16 @@ p {
   display: block;
   display: flex;
 }
+.icon {
+  fill: currentColor;
+  margin: auto auto;
+}
 .name-social-link .link:hover,
 .name-social-link .link:focus {
-  fill: var(--main-white-color);
+  color: var(--main-white-color);
   background-color: var(--main-blue-color);
+}
+
 }
 /* Постоянные клиенты */
 .clients {
@@ -346,13 +340,11 @@ p {
 .icon-clients {
   fill: currentColor;
 }
-.icon-clients:hover,
-.icon-clients:focus {
-  fill: var(--main-blue-color);
-}
+
 .button-clients:hover,
 .button-clients:focus {
   border: 1px solid var(--main-blue-color);
+  color: var(--main-blue-color);
 }
 /* Футер */
 .main-footer {
